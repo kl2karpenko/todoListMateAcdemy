@@ -1,0 +1,53 @@
+.taskList {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1; }
+  .taskList-wrapper {
+    width: 251px;
+    height: 241px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .taskList-item input[type=checkbox] {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    width: 0; }
+    .taskList-item input[type=checkbox]:checked + .taskList-item__checkbox {
+      border-color: #cccccc;
+      background: #cccccc; }
+  .taskList-item__checkbox {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    border: 1px solid #66cccc; }
+  .taskList-item__text {
+    font-size: 0.75rem; }
+
+h1 {
+  color: #ffcc1 + 1;
+  font-size: 23px; }
+
+h2 {
+  color: #ffcc1 + 2;
+  font-size: 22px; }
+
+h3 {
+  color: #ffcc1 + 3;
+  font-size: 21px; }
+
+h4 {
+  color: #ffcc1 + 4;
+  font-size: 20px; }
+
+h5 {
+  color: #ffcc1 + 5;
+  font-size: 19px; }
+
+h6 {
+  color: #ffcc1 + 6;
+  font-size: 18px; }
