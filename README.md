@@ -16,4 +16,4 @@ Steps:
 
 ### Homework:
 
-Create TodoList App, using previous structure. Also add watch in gulp while changing your html or sass files
+Create TodoList App, using previous structure. Also add **watch** task in gulp while changing your html or sass files
